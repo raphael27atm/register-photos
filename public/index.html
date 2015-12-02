@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="app">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Alurapic</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  </head>
+  <body ng-controller="photoCtrl">
+    <div class="container">
+      <ng-view></ng-view>
+    </div> <!-- fim container -->
+    <!-- angular essential-->
+    <script src="lib/bower_components/angular/angular.min.js"/></script>
+    <script src="lib/bower_components/angular-route/angular-route.min.js"/></script>
+    <script src="lib/bower_components/angular-resource/angular-resource.min.js"/></script>
+    <script src="lib/bower_components/angular-animate/angular-animate.min.js"/></script>
+    <script src="app.js"/></script>
+    <script src="config.js"/></script>
+    <!-- Directives -->
+
+    <!-- controllers -->
+    <script src="js/controllers/photo_controller.js"/></script>
+    <!-- servies -->
+
+  </body>
+</html>
